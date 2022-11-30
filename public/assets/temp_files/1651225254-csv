@@ -1,0 +1,7 @@
+category,subcategory,name,min_quantity,tags,product_features,product_description,meta_keywords,meta_description,status,attribute,,AttributeName,AttributeAbbreviation,AttributeOptionName,AttributePrice,AttributeStock,AttributeImage,AttributeDescription,AttributeLength,AttributeHeight,AttributeBroad,AttributeQuantity,AttributeVariableQuantity
+Tiles,Stone Tiles,CSV Product - A,500,"tag,tagb",stackable,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute A,csrA,Custom Name A,19,500,None,custom description,15,60,2,50,3
+Floor Tiles,Grenite,CSV Product - B,100,"tag,tagc",shiny,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute B,csrB,Custom Name B,21,600,None,custom description,20,70,3,100,5
+Tiles,Concrete Tiles,CSV Product - C,20,"tag,tagd",strongest tile,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute C,csrC,Custom Name C,22,700,None,custom description,25,80,4,200,6
+Floor Tiles,Marble Tiles,CSV Product - D,100,marble,new,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute A,csrA,Custom Name A,19,500,None,custom description,15,60,2,50,3
+Wall Tiles,Concrete Tiles,CSV Product - E,60,"concrete, solid",brand new,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute B,csrB,Custom Name B,21,600,None,custom description,20,70,3,100,5
+Floor Tiles,Marble Tiles,CSV Product - F,800,shiny,white and shiny,product description,KEYWORD,DESC,1,Square Meter,,Custom Attribute C,csrC,Custom Name C,22,700,None,custom description,25,80,4,200,6

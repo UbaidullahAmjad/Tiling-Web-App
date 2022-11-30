@@ -1,0 +1,4 @@
+category,subcategory,name,min_quantity,tags,product_features,description,meta_keywords,meta_description,status,attribute
+Tiles,Stone Tiles,CSV Product - A,500,"tag,tagb",stackable,product description,KEYWORD,DESC,1,Square Meter
+Floor Tiles,Grenite,CSV Product - B,100,"tag,tagc",shiny,product description,KEYWORD,DESC,1,Square Meter
+Tiles,Concrete Tiles,CSV Product - C,20,"tag,tagd",strongest tile,product description,KEYWORD,DESC,1,Square Meter

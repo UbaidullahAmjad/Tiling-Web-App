@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>steinlese </title>
+    <!--favicon icon-->
+    <link rel="icon" href="{{asset('/images/logo.png')}}">
+    <meta name="description" content="steinlese">
+    <link rel="shortcut icon" type="image/png" href="{{asset('/images/logo.png')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.fonts.css">
+    <link rel="stylesheet" href="css/global-style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="oh">
+            <div class="left-side">
+                <div class="logo">
+                    <a href="javascript:;" class="text-white">Steinlese</a>
+                </div>
+                <div class="left-content">
+                    <ul>
+                        <li><a href="#" class="anchor">Introduction</a></li>
+                        <li><a href="#" class="anchor">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!--right side-->
+        <div class="right-side">
+            <div class="right-content">
+                <!--id introduction-->
+                <div id="introduction" class="common_section">
+                    <h1 class="bit_title"></h1>
+                    <div class="content-welcome">
+                        <h4><b>Steinlese</b></h4>
+                        <p><strong>Version :  </strong> 4.3</p>
+                        <p><strong>Made By: </strong> <a href="#" target="_blank">Cplus Soft</a></p>
+                        <p><strong>Email: </strong> cplusoft@gmail.com</p>
+                        <br>
+                        <p><strong style="color: red; ">Important !!! </strong> Customization video tuturials available. Follow our chanel : <a href=" https://www.youtube.com/channel/UCsrVHe0KFWE2kfUDHRKxlMg/videos" target="_blank"> https://www.youtube.com/channel/UCsrVHe0KFWE2kfUDHRKxlMg/videos</a> </p>
+                    </div>
+                </div>
+
+                <!--id about-->
+                <div id="about" class="common_section">
+                    <h1 class="bit_title">About</h1>
+                    <div class="content-welcome">
+                        <p>Steinlese</p>
+                    </div>
+                </div>
+
+
+                <!--id installation-->
+                <div id="installation" class="common_section installation">
+                   <h1 class="bit_title">Installation</h1>
+
+                   <p>This item is built with <strong>Laravel Framework (Versions - 7.0)</strong></p>
+
+                   <h4>Server Requirements:</h4>
+                   <ul>
+                    <li>PHP &gt;= 7.2.5</li>
+                    <li>Fileinfo PHP extension</li>
+                    <li>JSON PHP Extension</li>
+                    <li>Mbstring PHP Extension</li>
+                    <li>OpenSSL PHP Extension</li>
+                    <li>PDO PHP Extension</li>
+                    <li>Tokenizer PHP Extension</li>
+                    <li>XML PHP Extension</li>
+                    <li>CURL PHP Extension</li>
+                   </ul>
+
+                  <br>
+
+                  <p><strong>Admin login URL :</strong> yourdomail.com/admin</p>
+                  <p><strong>Admin login email :</strong> admin@gmail.com</p>
+                  <p><strong>Admin login password :</strong> password</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(".anchor").on("click", function(event) {
+            var target = $($(this).attr("href"));
+
+            if (target.length) {
+                event.preventDefault();
+                $("html, body").animate({
+                    scrollTop: target.offset().top - 0 + 'px'
+                }, 1000);
+            }
+        });
+
+        $(".left-content>ul>li").on("click", function() {
+            $(this).children(".dropdown").slideToggle();
+            $(this).siblings("li").children(".dropdown").slideUp();
+        });
+        $(".left-content .dropdown li ").on("click", function(e) {
+            e.stopPropagation();
+        });
+
+    </script>
+</body>
+
+</html>
